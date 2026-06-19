@@ -182,3 +182,22 @@
     border-right-color: var(--border);
   }
 }
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+/* This creates the two-column layout */
+.dndflow {
+  flex-direction: row;
+  display: flex;
+  height: 100%;
+}
+
+.reactflow-wrapper {
+  flex-grow: 1;
+  height: 100%;
+}
